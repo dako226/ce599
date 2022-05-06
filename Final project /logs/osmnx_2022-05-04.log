@@ -1,0 +1,545 @@
+2022-05-04 10:10:54,980 INFO OSMnx Configured OSMnx 1.1.2
+2022-05-04 10:10:54,989 INFO OSMnx HTTP response caching is on
+2022-05-04 10:10:55,007 INFO OSMnx Created bbox 7000 m from (38.02383082308054, -84.50249515971014): 38.08678324656504,37.960878399596034,-84.42258141216129,-84.58240890725898
+2022-05-04 10:10:55,453 INFO OSMnx Projected GeoDataFrame to +proj=utm +zone=16 +ellps=WGS84 +datum=WGS84 +units=m +no_defs +type=crs
+2022-05-04 10:10:55,492 INFO OSMnx Projected GeoDataFrame to epsg:4326
+2022-05-04 10:10:55,553 INFO OSMnx Projected GeoDataFrame to +proj=utm +zone=16 +ellps=WGS84 +datum=WGS84 +units=m +no_defs +type=crs
+2022-05-04 10:10:55,594 INFO OSMnx Projected GeoDataFrame to epsg:4326
+2022-05-04 10:10:55,596 INFO OSMnx Requesting data within polygon from API in 1 request(s)
+2022-05-04 10:11:00,996 INFO OSMnx Retrieved response from cache file "cache/11498e974389eb41ce1258990f6132bbe7780ed4.json"
+2022-05-04 10:11:00,997 INFO OSMnx Got all network data within polygon from API in 1 request(s)
+2022-05-04 10:11:00,997 INFO OSMnx Creating graph from downloaded OSM data...
+2022-05-04 10:11:11,993 INFO OSMnx Created graph with 126807 nodes and 284556 edges
+2022-05-04 10:11:15,686 INFO OSMnx Added length attributes to graph edges
+2022-05-04 10:11:15,815 INFO OSMnx Identifying all nodes that lie outside the polygon...
+2022-05-04 10:11:25,328 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:11:41,560 INFO OSMnx Created r-tree spatial index for 126807 geometries
+2022-05-04 10:11:46,771 INFO OSMnx Identified 123527 geometries inside polygon
+2022-05-04 10:12:06,524 INFO OSMnx Removed 3280 nodes outside polygon
+2022-05-04 10:12:06,544 INFO OSMnx Truncated graph by polygon
+2022-05-04 10:12:09,179 INFO OSMnx Begin topologically simplifying the graph...
+2022-05-04 10:12:22,928 INFO OSMnx Identified 34774 edge endpoints
+2022-05-04 10:12:43,398 INFO OSMnx Simplified graph: 123527 to 34774 nodes, 277694 to 100188 edges
+2022-05-04 10:12:43,706 INFO OSMnx Identifying all nodes that lie outside the polygon...
+2022-05-04 10:12:45,988 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:12:47,956 INFO OSMnx Created r-tree spatial index for 34774 geometries
+2022-05-04 10:12:48,454 INFO OSMnx Identified 32899 geometries inside polygon
+2022-05-04 10:12:51,056 INFO OSMnx Removed 1875 nodes outside polygon
+2022-05-04 10:12:57,949 INFO OSMnx Removed 16 isolated nodes
+2022-05-04 10:13:07,237 INFO OSMnx Got largest weakly connected component (32442 of 32883 total nodes)
+2022-05-04 10:13:07,495 INFO OSMnx Truncated graph by polygon
+2022-05-04 10:13:11,246 INFO OSMnx Counted undirected street segments incident on each node
+2022-05-04 10:13:11,478 INFO OSMnx graph_from_polygon returned graph with 32442 nodes and 94548 edges
+2022-05-04 10:13:13,500 INFO OSMnx graph_from_bbox returned graph with 32442 nodes and 94548 edges
+2022-05-04 10:13:13,543 INFO OSMnx graph_from_point returned graph with 32442 nodes and 94548 edges
+2022-05-04 10:13:14,788 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:13:15,174 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:13:15,367 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:13:15,578 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:13:16,488 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:13:16,632 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:13:17,069 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:13:17,210 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:13:17,264 INFO OSMnx Begin plotting the graph...
+2022-05-04 10:13:36,720 INFO OSMnx Created edges GeoDataFrame from graph
+2022-05-04 10:14:01,136 INFO OSMnx Finished plotting the graph
+2022-05-04 10:19:16,562 INFO OSMnx Configured OSMnx 1.1.2
+2022-05-04 10:19:16,574 INFO OSMnx HTTP response caching is on
+2022-05-04 10:19:16,603 INFO OSMnx Created bbox 7000 m from (38.02383082308054, -84.50249515971014): 38.08678324656504,37.960878399596034,-84.42258141216129,-84.58240890725898
+2022-05-04 10:19:17,587 INFO OSMnx Projected GeoDataFrame to +proj=utm +zone=16 +ellps=WGS84 +datum=WGS84 +units=m +no_defs +type=crs
+2022-05-04 10:19:17,648 INFO OSMnx Projected GeoDataFrame to epsg:4326
+2022-05-04 10:19:17,735 INFO OSMnx Projected GeoDataFrame to +proj=utm +zone=16 +ellps=WGS84 +datum=WGS84 +units=m +no_defs +type=crs
+2022-05-04 10:19:17,789 INFO OSMnx Projected GeoDataFrame to epsg:4326
+2022-05-04 10:19:17,794 INFO OSMnx Requesting data within polygon from API in 1 request(s)
+2022-05-04 10:19:19,799 INFO OSMnx Retrieved response from cache file "cache/11498e974389eb41ce1258990f6132bbe7780ed4.json"
+2022-05-04 10:19:19,806 INFO OSMnx Got all network data within polygon from API in 1 request(s)
+2022-05-04 10:19:19,807 INFO OSMnx Creating graph from downloaded OSM data...
+2022-05-04 10:19:28,364 INFO OSMnx Created graph with 126807 nodes and 284556 edges
+2022-05-04 10:19:41,340 INFO OSMnx Added length attributes to graph edges
+2022-05-04 10:19:41,561 INFO OSMnx Identifying all nodes that lie outside the polygon...
+2022-05-04 10:19:57,108 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:20:03,814 INFO OSMnx Created r-tree spatial index for 126807 geometries
+2022-05-04 10:20:06,667 INFO OSMnx Identified 123527 geometries inside polygon
+2022-05-04 10:20:16,892 INFO OSMnx Removed 3280 nodes outside polygon
+2022-05-04 10:20:16,905 INFO OSMnx Truncated graph by polygon
+2022-05-04 10:20:19,123 INFO OSMnx Begin topologically simplifying the graph...
+2022-05-04 10:20:26,788 INFO OSMnx Identified 34774 edge endpoints
+2022-05-04 10:20:46,863 INFO OSMnx Simplified graph: 123527 to 34774 nodes, 277694 to 100188 edges
+2022-05-04 10:20:47,160 INFO OSMnx Identifying all nodes that lie outside the polygon...
+2022-05-04 10:20:49,190 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:20:50,826 INFO OSMnx Created r-tree spatial index for 34774 geometries
+2022-05-04 10:20:51,146 INFO OSMnx Identified 32899 geometries inside polygon
+2022-05-04 10:20:52,940 INFO OSMnx Removed 1875 nodes outside polygon
+2022-05-04 10:20:54,844 INFO OSMnx Removed 16 isolated nodes
+2022-05-04 10:20:57,313 INFO OSMnx Got largest weakly connected component (32442 of 32883 total nodes)
+2022-05-04 10:20:57,393 INFO OSMnx Truncated graph by polygon
+2022-05-04 10:20:58,162 INFO OSMnx Counted undirected street segments incident on each node
+2022-05-04 10:20:58,252 INFO OSMnx graph_from_polygon returned graph with 32442 nodes and 94548 edges
+2022-05-04 10:20:58,598 INFO OSMnx graph_from_bbox returned graph with 32442 nodes and 94548 edges
+2022-05-04 10:20:58,638 INFO OSMnx graph_from_point returned graph with 32442 nodes and 94548 edges
+2022-05-04 10:20:58,754 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:20:59,539 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:20:59,579 INFO OSMnx Begin plotting the graph...
+2022-05-04 10:21:10,352 INFO OSMnx Created edges GeoDataFrame from graph
+2022-05-04 10:21:29,143 INFO OSMnx Finished plotting the graph
+2022-05-04 10:23:02,597 INFO OSMnx Configured OSMnx 1.1.2
+2022-05-04 10:23:02,601 INFO OSMnx HTTP response caching is on
+2022-05-04 10:23:02,610 INFO OSMnx Created bbox 7000 m from (38.02383082308054, -84.50249515971014): 38.08678324656504,37.960878399596034,-84.42258141216129,-84.58240890725898
+2022-05-04 10:23:03,305 INFO OSMnx Projected GeoDataFrame to +proj=utm +zone=16 +ellps=WGS84 +datum=WGS84 +units=m +no_defs +type=crs
+2022-05-04 10:23:03,398 INFO OSMnx Projected GeoDataFrame to epsg:4326
+2022-05-04 10:23:03,458 INFO OSMnx Projected GeoDataFrame to +proj=utm +zone=16 +ellps=WGS84 +datum=WGS84 +units=m +no_defs +type=crs
+2022-05-04 10:23:03,503 INFO OSMnx Projected GeoDataFrame to epsg:4326
+2022-05-04 10:23:03,505 INFO OSMnx Requesting data within polygon from API in 1 request(s)
+2022-05-04 10:23:09,115 INFO OSMnx Retrieved response from cache file "cache/11498e974389eb41ce1258990f6132bbe7780ed4.json"
+2022-05-04 10:23:09,116 INFO OSMnx Got all network data within polygon from API in 1 request(s)
+2022-05-04 10:23:09,116 INFO OSMnx Creating graph from downloaded OSM data...
+2022-05-04 10:23:16,186 INFO OSMnx Created graph with 126807 nodes and 284556 edges
+2022-05-04 10:23:19,633 INFO OSMnx Added length attributes to graph edges
+2022-05-04 10:23:19,704 INFO OSMnx Identifying all nodes that lie outside the polygon...
+2022-05-04 10:23:27,619 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:23:34,130 INFO OSMnx Created r-tree spatial index for 126807 geometries
+2022-05-04 10:23:36,602 INFO OSMnx Identified 123527 geometries inside polygon
+2022-05-04 10:23:41,981 INFO OSMnx Removed 3280 nodes outside polygon
+2022-05-04 10:23:41,981 INFO OSMnx Truncated graph by polygon
+2022-05-04 10:23:42,791 INFO OSMnx Begin topologically simplifying the graph...
+2022-05-04 10:23:47,666 INFO OSMnx Identified 34774 edge endpoints
+2022-05-04 10:24:02,828 INFO OSMnx Simplified graph: 123527 to 34774 nodes, 277694 to 100188 edges
+2022-05-04 10:24:03,067 INFO OSMnx Identifying all nodes that lie outside the polygon...
+2022-05-04 10:24:04,823 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:24:06,231 INFO OSMnx Created r-tree spatial index for 34774 geometries
+2022-05-04 10:24:07,141 INFO OSMnx Identified 32899 geometries inside polygon
+2022-05-04 10:24:08,105 INFO OSMnx Removed 1875 nodes outside polygon
+2022-05-04 10:24:10,030 INFO OSMnx Removed 16 isolated nodes
+2022-05-04 10:24:13,635 INFO OSMnx Got largest weakly connected component (32442 of 32883 total nodes)
+2022-05-04 10:24:13,713 INFO OSMnx Truncated graph by polygon
+2022-05-04 10:24:14,485 INFO OSMnx Counted undirected street segments incident on each node
+2022-05-04 10:24:14,583 INFO OSMnx graph_from_polygon returned graph with 32442 nodes and 94548 edges
+2022-05-04 10:24:14,855 INFO OSMnx graph_from_bbox returned graph with 32442 nodes and 94548 edges
+2022-05-04 10:24:14,897 INFO OSMnx graph_from_point returned graph with 32442 nodes and 94548 edges
+2022-05-04 10:24:15,031 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:24:15,194 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:24:15,235 INFO OSMnx Begin plotting the graph...
+2022-05-04 10:24:26,934 INFO OSMnx Created edges GeoDataFrame from graph
+2022-05-04 10:24:47,889 INFO OSMnx Finished plotting the graph
+2022-05-04 10:43:22,413 INFO OSMnx Configured OSMnx 1.1.2
+2022-05-04 10:43:22,446 INFO OSMnx HTTP response caching is on
+2022-05-04 10:43:22,471 INFO OSMnx Created bbox 7000 m from (38.02383082308054, -84.50249515971014): 38.08678324656504,37.960878399596034,-84.42258141216129,-84.58240890725898
+2022-05-04 10:43:23,456 INFO OSMnx Projected GeoDataFrame to +proj=utm +zone=16 +ellps=WGS84 +datum=WGS84 +units=m +no_defs +type=crs
+2022-05-04 10:43:23,669 INFO OSMnx Projected GeoDataFrame to epsg:4326
+2022-05-04 10:43:23,785 INFO OSMnx Projected GeoDataFrame to +proj=utm +zone=16 +ellps=WGS84 +datum=WGS84 +units=m +no_defs +type=crs
+2022-05-04 10:43:23,848 INFO OSMnx Projected GeoDataFrame to epsg:4326
+2022-05-04 10:43:23,850 INFO OSMnx Requesting data within polygon from API in 1 request(s)
+2022-05-04 10:43:30,622 INFO OSMnx Retrieved response from cache file "cache/11498e974389eb41ce1258990f6132bbe7780ed4.json"
+2022-05-04 10:43:30,631 INFO OSMnx Got all network data within polygon from API in 1 request(s)
+2022-05-04 10:43:30,633 INFO OSMnx Creating graph from downloaded OSM data...
+2022-05-04 10:43:58,094 INFO OSMnx Created graph with 126807 nodes and 284556 edges
+2022-05-04 10:44:02,213 INFO OSMnx Added length attributes to graph edges
+2022-05-04 10:44:02,439 INFO OSMnx Identifying all nodes that lie outside the polygon...
+2022-05-04 10:44:12,123 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:44:18,642 INFO OSMnx Created r-tree spatial index for 126807 geometries
+2022-05-04 10:44:21,320 INFO OSMnx Identified 123527 geometries inside polygon
+2022-05-04 10:44:31,312 INFO OSMnx Removed 3280 nodes outside polygon
+2022-05-04 10:44:31,335 INFO OSMnx Truncated graph by polygon
+2022-05-04 10:44:34,814 INFO OSMnx Begin topologically simplifying the graph...
+2022-05-04 10:44:44,199 INFO OSMnx Identified 34774 edge endpoints
+2022-05-04 10:45:00,383 INFO OSMnx Simplified graph: 123527 to 34774 nodes, 277694 to 100188 edges
+2022-05-04 10:45:00,784 INFO OSMnx Identifying all nodes that lie outside the polygon...
+2022-05-04 10:45:02,760 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:45:04,208 INFO OSMnx Created r-tree spatial index for 34774 geometries
+2022-05-04 10:45:04,503 INFO OSMnx Identified 32899 geometries inside polygon
+2022-05-04 10:45:06,375 INFO OSMnx Removed 1875 nodes outside polygon
+2022-05-04 10:45:08,280 INFO OSMnx Removed 16 isolated nodes
+2022-05-04 10:45:10,898 INFO OSMnx Got largest weakly connected component (32442 of 32883 total nodes)
+2022-05-04 10:45:10,989 INFO OSMnx Truncated graph by polygon
+2022-05-04 10:45:11,849 INFO OSMnx Counted undirected street segments incident on each node
+2022-05-04 10:45:11,948 INFO OSMnx graph_from_polygon returned graph with 32442 nodes and 94548 edges
+2022-05-04 10:45:12,234 INFO OSMnx graph_from_bbox returned graph with 32442 nodes and 94548 edges
+2022-05-04 10:45:12,276 INFO OSMnx graph_from_point returned graph with 32442 nodes and 94548 edges
+2022-05-04 10:45:12,965 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:45:13,157 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:45:13,325 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:45:13,499 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:45:14,202 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:45:14,376 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:45:14,546 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:45:15,277 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:45:15,323 INFO OSMnx Begin plotting the graph...
+2022-05-04 10:45:24,809 INFO OSMnx Created edges GeoDataFrame from graph
+2022-05-04 10:45:45,156 INFO OSMnx Finished plotting the graph
+2022-05-04 10:47:07,068 INFO OSMnx Configured OSMnx 1.1.2
+2022-05-04 10:47:07,071 INFO OSMnx HTTP response caching is on
+2022-05-04 10:47:07,075 INFO OSMnx Created bbox 7000 m from (38.02383082308054, -84.50249515971014): 38.08678324656504,37.960878399596034,-84.42258141216129,-84.58240890725898
+2022-05-04 10:47:07,321 INFO OSMnx Projected GeoDataFrame to +proj=utm +zone=16 +ellps=WGS84 +datum=WGS84 +units=m +no_defs +type=crs
+2022-05-04 10:47:07,358 INFO OSMnx Projected GeoDataFrame to epsg:4326
+2022-05-04 10:47:07,397 INFO OSMnx Projected GeoDataFrame to +proj=utm +zone=16 +ellps=WGS84 +datum=WGS84 +units=m +no_defs +type=crs
+2022-05-04 10:47:07,423 INFO OSMnx Projected GeoDataFrame to epsg:4326
+2022-05-04 10:47:07,427 INFO OSMnx Requesting data within polygon from API in 1 request(s)
+2022-05-04 10:47:13,984 INFO OSMnx Retrieved response from cache file "cache/11498e974389eb41ce1258990f6132bbe7780ed4.json"
+2022-05-04 10:47:13,985 INFO OSMnx Got all network data within polygon from API in 1 request(s)
+2022-05-04 10:47:13,986 INFO OSMnx Creating graph from downloaded OSM data...
+2022-05-04 10:47:20,857 INFO OSMnx Created graph with 126807 nodes and 284556 edges
+2022-05-04 10:47:25,095 INFO OSMnx Added length attributes to graph edges
+2022-05-04 10:47:25,322 INFO OSMnx Identifying all nodes that lie outside the polygon...
+2022-05-04 10:47:33,288 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:47:39,236 INFO OSMnx Created r-tree spatial index for 126807 geometries
+2022-05-04 10:47:41,621 INFO OSMnx Identified 123527 geometries inside polygon
+2022-05-04 10:47:46,697 INFO OSMnx Removed 3280 nodes outside polygon
+2022-05-04 10:47:46,705 INFO OSMnx Truncated graph by polygon
+2022-05-04 10:47:47,551 INFO OSMnx Begin topologically simplifying the graph...
+2022-05-04 10:47:53,322 INFO OSMnx Identified 34774 edge endpoints
+2022-05-04 10:48:08,520 INFO OSMnx Simplified graph: 123527 to 34774 nodes, 277694 to 100188 edges
+2022-05-04 10:48:08,709 INFO OSMnx Identifying all nodes that lie outside the polygon...
+2022-05-04 10:48:10,315 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:48:11,723 INFO OSMnx Created r-tree spatial index for 34774 geometries
+2022-05-04 10:48:12,023 INFO OSMnx Identified 32899 geometries inside polygon
+2022-05-04 10:48:12,974 INFO OSMnx Removed 1875 nodes outside polygon
+2022-05-04 10:48:14,840 INFO OSMnx Removed 16 isolated nodes
+2022-05-04 10:48:17,172 INFO OSMnx Got largest weakly connected component (32442 of 32883 total nodes)
+2022-05-04 10:48:17,253 INFO OSMnx Truncated graph by polygon
+2022-05-04 10:48:18,000 INFO OSMnx Counted undirected street segments incident on each node
+2022-05-04 10:48:18,094 INFO OSMnx graph_from_polygon returned graph with 32442 nodes and 94548 edges
+2022-05-04 10:48:18,378 INFO OSMnx graph_from_bbox returned graph with 32442 nodes and 94548 edges
+2022-05-04 10:48:18,421 INFO OSMnx graph_from_point returned graph with 32442 nodes and 94548 edges
+2022-05-04 10:48:19,149 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:48:19,334 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:48:19,545 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:48:19,730 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:48:20,493 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:48:20,663 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:48:20,866 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:48:21,059 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:48:21,100 INFO OSMnx Begin plotting the graph...
+2022-05-04 10:48:31,143 INFO OSMnx Created edges GeoDataFrame from graph
+2022-05-04 10:49:00,291 INFO OSMnx Finished plotting the graph
+2022-05-04 10:49:51,988 INFO OSMnx Configured OSMnx 1.1.2
+2022-05-04 10:49:51,989 INFO OSMnx HTTP response caching is on
+2022-05-04 10:49:51,991 INFO OSMnx Created bbox 7000 m from (38.02383082308054, -84.50249515971014): 38.08678324656504,37.960878399596034,-84.42258141216129,-84.58240890725898
+2022-05-04 10:49:52,143 INFO OSMnx Projected GeoDataFrame to +proj=utm +zone=16 +ellps=WGS84 +datum=WGS84 +units=m +no_defs +type=crs
+2022-05-04 10:49:52,167 INFO OSMnx Projected GeoDataFrame to epsg:4326
+2022-05-04 10:49:52,200 INFO OSMnx Projected GeoDataFrame to +proj=utm +zone=16 +ellps=WGS84 +datum=WGS84 +units=m +no_defs +type=crs
+2022-05-04 10:49:52,229 INFO OSMnx Projected GeoDataFrame to epsg:4326
+2022-05-04 10:49:52,231 INFO OSMnx Requesting data within polygon from API in 1 request(s)
+2022-05-04 10:49:53,502 INFO OSMnx Retrieved response from cache file "cache/11498e974389eb41ce1258990f6132bbe7780ed4.json"
+2022-05-04 10:49:53,503 INFO OSMnx Got all network data within polygon from API in 1 request(s)
+2022-05-04 10:49:53,507 INFO OSMnx Creating graph from downloaded OSM data...
+2022-05-04 10:50:04,448 INFO OSMnx Created graph with 126807 nodes and 284556 edges
+2022-05-04 10:50:13,656 INFO OSMnx Added length attributes to graph edges
+2022-05-04 10:50:14,337 INFO OSMnx Identifying all nodes that lie outside the polygon...
+2022-05-04 10:51:30,198 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:51:55,075 INFO OSMnx Created r-tree spatial index for 126807 geometries
+2022-05-04 10:52:13,898 INFO OSMnx Identified 123527 geometries inside polygon
+2022-05-04 10:53:11,836 INFO OSMnx Removed 3280 nodes outside polygon
+2022-05-04 10:53:11,946 INFO OSMnx Truncated graph by polygon
+2022-05-04 10:53:24,869 INFO OSMnx Begin topologically simplifying the graph...
+2022-05-04 10:53:59,259 INFO OSMnx Identified 34774 edge endpoints
+2022-05-04 10:55:37,741 INFO OSMnx Simplified graph: 123527 to 34774 nodes, 277694 to 100188 edges
+2022-05-04 10:55:38,561 INFO OSMnx Identifying all nodes that lie outside the polygon...
+2022-05-04 10:55:41,456 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:55:43,322 INFO OSMnx Created r-tree spatial index for 34774 geometries
+2022-05-04 10:55:43,637 INFO OSMnx Identified 32899 geometries inside polygon
+2022-05-04 10:55:45,522 INFO OSMnx Removed 1875 nodes outside polygon
+2022-05-04 10:55:54,563 INFO OSMnx Removed 16 isolated nodes
+2022-05-04 10:55:59,144 INFO OSMnx Got largest weakly connected component (32442 of 32883 total nodes)
+2022-05-04 10:55:59,318 INFO OSMnx Truncated graph by polygon
+2022-05-04 10:56:00,897 INFO OSMnx Counted undirected street segments incident on each node
+2022-05-04 10:56:01,029 INFO OSMnx graph_from_polygon returned graph with 32442 nodes and 94548 edges
+2022-05-04 10:56:02,240 INFO OSMnx graph_from_bbox returned graph with 32442 nodes and 94548 edges
+2022-05-04 10:56:02,282 INFO OSMnx graph_from_point returned graph with 32442 nodes and 94548 edges
+2022-05-04 10:56:04,956 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:56:05,164 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:56:05,366 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:56:05,525 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:56:06,316 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:56:06,545 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:56:06,799 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:56:07,018 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:56:07,080 INFO OSMnx Begin plotting the graph...
+2022-05-04 10:56:21,892 INFO OSMnx Created edges GeoDataFrame from graph
+2022-05-04 10:56:41,401 INFO OSMnx Finished plotting the graph
+2022-05-04 10:59:08,930 INFO OSMnx Configured OSMnx 1.1.2
+2022-05-04 10:59:08,931 INFO OSMnx HTTP response caching is on
+2022-05-04 10:59:08,934 INFO OSMnx Created bbox 7000 m from (38.02383082308054, -84.50249515971014): 38.08678324656504,37.960878399596034,-84.42258141216129,-84.58240890725898
+2022-05-04 10:59:09,199 INFO OSMnx Projected GeoDataFrame to +proj=utm +zone=16 +ellps=WGS84 +datum=WGS84 +units=m +no_defs +type=crs
+2022-05-04 10:59:09,261 INFO OSMnx Projected GeoDataFrame to epsg:4326
+2022-05-04 10:59:09,300 INFO OSMnx Projected GeoDataFrame to +proj=utm +zone=16 +ellps=WGS84 +datum=WGS84 +units=m +no_defs +type=crs
+2022-05-04 10:59:09,361 INFO OSMnx Projected GeoDataFrame to epsg:4326
+2022-05-04 10:59:09,411 INFO OSMnx Requesting data within polygon from API in 1 request(s)
+2022-05-04 10:59:10,657 INFO OSMnx Retrieved response from cache file "cache/11498e974389eb41ce1258990f6132bbe7780ed4.json"
+2022-05-04 10:59:10,658 INFO OSMnx Got all network data within polygon from API in 1 request(s)
+2022-05-04 10:59:10,659 INFO OSMnx Creating graph from downloaded OSM data...
+2022-05-04 10:59:19,902 INFO OSMnx Created graph with 126807 nodes and 284556 edges
+2022-05-04 10:59:25,395 INFO OSMnx Added length attributes to graph edges
+2022-05-04 10:59:25,537 INFO OSMnx Identifying all nodes that lie outside the polygon...
+2022-05-04 10:59:40,627 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 10:59:46,969 INFO OSMnx Created r-tree spatial index for 126807 geometries
+2022-05-04 10:59:50,034 INFO OSMnx Identified 123527 geometries inside polygon
+2022-05-04 11:00:24,678 INFO OSMnx Removed 3280 nodes outside polygon
+2022-05-04 11:00:24,687 INFO OSMnx Truncated graph by polygon
+2022-05-04 11:00:33,298 INFO OSMnx Begin topologically simplifying the graph...
+2022-05-04 11:01:14,400 INFO OSMnx Identified 34774 edge endpoints
+2022-05-04 11:01:52,193 INFO OSMnx Simplified graph: 123527 to 34774 nodes, 277694 to 100188 edges
+2022-05-04 11:01:54,612 INFO OSMnx Identifying all nodes that lie outside the polygon...
+2022-05-04 11:02:28,931 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 11:02:31,342 INFO OSMnx Created r-tree spatial index for 34774 geometries
+2022-05-04 11:02:32,713 INFO OSMnx Identified 32899 geometries inside polygon
+2022-05-04 11:02:38,023 INFO OSMnx Removed 1875 nodes outside polygon
+2022-05-04 11:02:50,587 INFO OSMnx Removed 16 isolated nodes
+2022-05-04 11:02:55,250 INFO OSMnx Got largest weakly connected component (32442 of 32883 total nodes)
+2022-05-04 11:02:55,759 INFO OSMnx Truncated graph by polygon
+2022-05-04 11:03:04,398 INFO OSMnx Counted undirected street segments incident on each node
+2022-05-04 11:03:05,272 INFO OSMnx graph_from_polygon returned graph with 32442 nodes and 94548 edges
+2022-05-04 11:03:08,301 INFO OSMnx graph_from_bbox returned graph with 32442 nodes and 94548 edges
+2022-05-04 11:03:08,378 INFO OSMnx graph_from_point returned graph with 32442 nodes and 94548 edges
+2022-05-04 11:03:10,157 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 11:03:10,971 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 11:03:25,493 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 11:03:26,064 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 11:03:26,318 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 11:03:29,045 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 11:03:29,283 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 11:03:29,552 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 11:03:29,619 INFO OSMnx Begin plotting the graph...
+2022-05-04 11:03:43,422 INFO OSMnx Created edges GeoDataFrame from graph
+2022-05-04 11:04:10,996 INFO OSMnx Finished plotting the graph
+2022-05-04 11:34:27,756 INFO OSMnx Created bbox 7000 m from (38.02383082308054, -84.50249515971014): 38.08678324656504,37.960878399596034,-84.42258141216129,-84.58240890725898
+2022-05-04 11:34:29,712 INFO OSMnx Projected GeoDataFrame to +proj=utm +zone=16 +ellps=WGS84 +datum=WGS84 +units=m +no_defs +type=crs
+2022-05-04 11:34:29,806 INFO OSMnx Projected GeoDataFrame to epsg:4326
+2022-05-04 11:34:29,936 INFO OSMnx Projected GeoDataFrame to +proj=utm +zone=16 +ellps=WGS84 +datum=WGS84 +units=m +no_defs +type=crs
+2022-05-04 11:34:29,988 INFO OSMnx Projected GeoDataFrame to epsg:4326
+2022-05-04 11:34:29,994 INFO OSMnx Requesting data within polygon from API in 1 request(s)
+2022-05-04 11:34:34,589 INFO OSMnx Retrieved response from cache file "cache/11498e974389eb41ce1258990f6132bbe7780ed4.json"
+2022-05-04 11:34:34,590 INFO OSMnx Got all network data within polygon from API in 1 request(s)
+2022-05-04 11:34:34,592 INFO OSMnx Creating graph from downloaded OSM data...
+2022-05-04 11:34:48,883 INFO OSMnx Created graph with 126807 nodes and 284556 edges
+2022-05-04 11:34:52,698 INFO OSMnx Added length attributes to graph edges
+2022-05-04 11:34:52,822 INFO OSMnx Identifying all nodes that lie outside the polygon...
+2022-05-04 11:35:02,683 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 11:35:08,316 INFO OSMnx Created r-tree spatial index for 126807 geometries
+2022-05-04 11:35:10,598 INFO OSMnx Identified 123527 geometries inside polygon
+2022-05-04 11:35:16,854 INFO OSMnx Removed 3280 nodes outside polygon
+2022-05-04 11:35:16,855 INFO OSMnx Truncated graph by polygon
+2022-05-04 11:35:17,654 INFO OSMnx Begin topologically simplifying the graph...
+2022-05-04 11:35:22,829 INFO OSMnx Identified 34774 edge endpoints
+2022-05-04 11:35:36,403 INFO OSMnx Simplified graph: 123527 to 34774 nodes, 277694 to 100188 edges
+2022-05-04 11:35:36,587 INFO OSMnx Identifying all nodes that lie outside the polygon...
+2022-05-04 11:35:39,279 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 11:35:40,531 INFO OSMnx Created r-tree spatial index for 34774 geometries
+2022-05-04 11:35:40,801 INFO OSMnx Identified 32899 geometries inside polygon
+2022-05-04 11:35:41,786 INFO OSMnx Removed 1875 nodes outside polygon
+2022-05-04 11:35:43,806 INFO OSMnx Removed 16 isolated nodes
+2022-05-04 11:35:46,036 INFO OSMnx Got largest weakly connected component (32442 of 32883 total nodes)
+2022-05-04 11:35:46,117 INFO OSMnx Truncated graph by polygon
+2022-05-04 11:35:46,851 INFO OSMnx Counted undirected street segments incident on each node
+2022-05-04 11:35:46,944 INFO OSMnx graph_from_polygon returned graph with 32442 nodes and 94548 edges
+2022-05-04 11:35:47,222 INFO OSMnx graph_from_bbox returned graph with 32442 nodes and 94548 edges
+2022-05-04 11:35:47,263 INFO OSMnx graph_from_point returned graph with 32442 nodes and 94548 edges
+2022-05-04 11:35:48,026 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 11:35:48,765 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 11:35:48,916 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 11:35:49,075 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 11:35:49,227 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 11:35:49,931 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 11:35:50,081 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 11:35:50,230 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 11:35:50,263 INFO OSMnx Begin plotting the graph...
+2022-05-04 11:35:58,950 INFO OSMnx Created edges GeoDataFrame from graph
+2022-05-04 11:36:16,676 INFO OSMnx Finished plotting the graph
+2022-05-04 11:36:17,836 INFO OSMnx Created bbox 7000 m from (38.02383082308054, -84.50249515971014): 38.08678324656504,37.960878399596034,-84.42258141216129,-84.58240890725898
+2022-05-04 11:36:17,885 INFO OSMnx Projected GeoDataFrame to +proj=utm +zone=16 +ellps=WGS84 +datum=WGS84 +units=m +no_defs +type=crs
+2022-05-04 11:36:17,912 INFO OSMnx Projected GeoDataFrame to epsg:4326
+2022-05-04 11:36:17,940 INFO OSMnx Projected GeoDataFrame to +proj=utm +zone=16 +ellps=WGS84 +datum=WGS84 +units=m +no_defs +type=crs
+2022-05-04 11:36:17,968 INFO OSMnx Projected GeoDataFrame to epsg:4326
+2022-05-04 11:36:17,969 INFO OSMnx Requesting data within polygon from API in 1 request(s)
+2022-05-04 11:36:18,453 INFO OSMnx Retrieved response from cache file "cache/11498e974389eb41ce1258990f6132bbe7780ed4.json"
+2022-05-04 11:36:18,456 INFO OSMnx Got all network data within polygon from API in 1 request(s)
+2022-05-04 11:36:18,456 INFO OSMnx Creating graph from downloaded OSM data...
+2022-05-04 11:36:24,251 INFO OSMnx Created graph with 126807 nodes and 284556 edges
+2022-05-04 11:36:26,614 INFO OSMnx Added length attributes to graph edges
+2022-05-04 11:36:26,677 INFO OSMnx Identifying all nodes that lie outside the polygon...
+2022-05-04 11:36:33,955 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 11:36:38,619 INFO OSMnx Created r-tree spatial index for 126807 geometries
+2022-05-04 11:36:40,798 INFO OSMnx Identified 123527 geometries inside polygon
+2022-05-04 11:36:44,312 INFO OSMnx Removed 3280 nodes outside polygon
+2022-05-04 11:36:44,312 INFO OSMnx Truncated graph by polygon
+2022-05-04 11:36:45,082 INFO OSMnx Begin topologically simplifying the graph...
+2022-05-04 11:36:50,103 INFO OSMnx Identified 34774 edge endpoints
+2022-05-04 11:37:03,088 INFO OSMnx Simplified graph: 123527 to 34774 nodes, 277694 to 100188 edges
+2022-05-04 11:37:03,272 INFO OSMnx Identifying all nodes that lie outside the polygon...
+2022-05-04 11:37:05,591 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 11:37:06,879 INFO OSMnx Created r-tree spatial index for 34774 geometries
+2022-05-04 11:37:07,142 INFO OSMnx Identified 32899 geometries inside polygon
+2022-05-04 11:37:08,020 INFO OSMnx Removed 1875 nodes outside polygon
+2022-05-04 11:37:09,926 INFO OSMnx Removed 16 isolated nodes
+2022-05-04 11:37:12,119 INFO OSMnx Got largest weakly connected component (32442 of 32883 total nodes)
+2022-05-04 11:37:12,200 INFO OSMnx Truncated graph by polygon
+2022-05-04 11:37:12,915 INFO OSMnx Counted undirected street segments incident on each node
+2022-05-04 11:37:13,009 INFO OSMnx graph_from_polygon returned graph with 32442 nodes and 94548 edges
+2022-05-04 11:37:13,241 INFO OSMnx graph_from_bbox returned graph with 32442 nodes and 94548 edges
+2022-05-04 11:37:13,282 INFO OSMnx graph_from_point returned graph with 32442 nodes and 94548 edges
+2022-05-04 11:37:13,705 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 11:37:14,432 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 11:37:14,466 INFO OSMnx Begin plotting the graph...
+2022-05-04 11:37:23,585 INFO OSMnx Created edges GeoDataFrame from graph
+2022-05-04 11:37:40,765 INFO OSMnx Finished plotting the graph
+2022-05-04 11:38:29,504 INFO OSMnx Created bbox 7000 m from (38.02383082308054, -84.50249515971014): 38.08678324656504,37.960878399596034,-84.42258141216129,-84.58240890725898
+2022-05-04 11:38:29,806 INFO OSMnx Projected GeoDataFrame to +proj=utm +zone=16 +ellps=WGS84 +datum=WGS84 +units=m +no_defs +type=crs
+2022-05-04 11:38:29,855 INFO OSMnx Projected GeoDataFrame to epsg:4326
+2022-05-04 11:38:30,858 INFO OSMnx Projected GeoDataFrame to +proj=utm +zone=16 +ellps=WGS84 +datum=WGS84 +units=m +no_defs +type=crs
+2022-05-04 11:38:30,905 INFO OSMnx Projected GeoDataFrame to epsg:4326
+2022-05-04 11:38:30,907 INFO OSMnx Requesting data within polygon from API in 1 request(s)
+2022-05-04 11:38:36,373 INFO OSMnx Retrieved response from cache file "cache/11498e974389eb41ce1258990f6132bbe7780ed4.json"
+2022-05-04 11:38:36,374 INFO OSMnx Got all network data within polygon from API in 1 request(s)
+2022-05-04 11:38:36,374 INFO OSMnx Creating graph from downloaded OSM data...
+2022-05-04 11:38:46,311 INFO OSMnx Created graph with 126807 nodes and 284556 edges
+2022-05-04 11:38:49,098 INFO OSMnx Added length attributes to graph edges
+2022-05-04 11:38:49,155 INFO OSMnx Identifying all nodes that lie outside the polygon...
+2022-05-04 11:38:57,942 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 11:39:04,033 INFO OSMnx Created r-tree spatial index for 126807 geometries
+2022-05-04 11:39:06,505 INFO OSMnx Identified 123527 geometries inside polygon
+2022-05-04 11:39:12,458 INFO OSMnx Removed 3280 nodes outside polygon
+2022-05-04 11:39:12,459 INFO OSMnx Truncated graph by polygon
+2022-05-04 11:39:13,294 INFO OSMnx Begin topologically simplifying the graph...
+2022-05-04 11:39:18,388 INFO OSMnx Identified 34774 edge endpoints
+2022-05-04 11:39:32,768 INFO OSMnx Simplified graph: 123527 to 34774 nodes, 277694 to 100188 edges
+2022-05-04 11:39:32,961 INFO OSMnx Identifying all nodes that lie outside the polygon...
+2022-05-04 11:39:34,684 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 11:39:36,087 INFO OSMnx Created r-tree spatial index for 34774 geometries
+2022-05-04 11:39:36,349 INFO OSMnx Identified 32899 geometries inside polygon
+2022-05-04 11:39:38,198 INFO OSMnx Removed 1875 nodes outside polygon
+2022-05-04 11:39:39,222 INFO OSMnx Removed 16 isolated nodes
+2022-05-04 11:39:42,648 INFO OSMnx Got largest weakly connected component (32442 of 32883 total nodes)
+2022-05-04 11:39:42,732 INFO OSMnx Truncated graph by polygon
+2022-05-04 11:39:43,452 INFO OSMnx Counted undirected street segments incident on each node
+2022-05-04 11:39:43,548 INFO OSMnx graph_from_polygon returned graph with 32442 nodes and 94548 edges
+2022-05-04 11:39:43,768 INFO OSMnx graph_from_bbox returned graph with 32442 nodes and 94548 edges
+2022-05-04 11:39:43,810 INFO OSMnx graph_from_point returned graph with 32442 nodes and 94548 edges
+2022-05-04 12:58:04,754 INFO OSMnx Created bbox 7000 m from (38.02383082308054, -84.50249515971014): 38.08678324656504,37.960878399596034,-84.42258141216129,-84.58240890725898
+2022-05-04 12:58:05,880 INFO OSMnx Projected GeoDataFrame to +proj=utm +zone=16 +ellps=WGS84 +datum=WGS84 +units=m +no_defs +type=crs
+2022-05-04 12:58:06,026 INFO OSMnx Projected GeoDataFrame to epsg:4326
+2022-05-04 12:58:06,270 INFO OSMnx Projected GeoDataFrame to +proj=utm +zone=16 +ellps=WGS84 +datum=WGS84 +units=m +no_defs +type=crs
+2022-05-04 12:58:06,317 INFO OSMnx Projected GeoDataFrame to epsg:4326
+2022-05-04 12:58:06,320 INFO OSMnx Requesting data within polygon from API in 1 request(s)
+2022-05-04 12:58:11,816 INFO OSMnx Retrieved response from cache file "cache/11498e974389eb41ce1258990f6132bbe7780ed4.json"
+2022-05-04 12:58:11,818 INFO OSMnx Got all network data within polygon from API in 1 request(s)
+2022-05-04 12:58:11,818 INFO OSMnx Creating graph from downloaded OSM data...
+2022-05-04 12:58:22,944 INFO OSMnx Created graph with 126807 nodes and 284556 edges
+2022-05-04 12:58:25,818 INFO OSMnx Added length attributes to graph edges
+2022-05-04 12:58:25,890 INFO OSMnx Identifying all nodes that lie outside the polygon...
+2022-05-04 12:58:33,961 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 12:58:40,371 INFO OSMnx Created r-tree spatial index for 126807 geometries
+2022-05-04 12:58:42,903 INFO OSMnx Identified 123527 geometries inside polygon
+2022-05-04 12:58:50,490 INFO OSMnx Removed 3280 nodes outside polygon
+2022-05-04 12:58:50,491 INFO OSMnx Truncated graph by polygon
+2022-05-04 12:58:51,312 INFO OSMnx Begin topologically simplifying the graph...
+2022-05-04 12:58:56,064 INFO OSMnx Identified 34774 edge endpoints
+2022-05-04 12:59:11,076 INFO OSMnx Simplified graph: 123527 to 34774 nodes, 277694 to 100188 edges
+2022-05-04 12:59:11,262 INFO OSMnx Identifying all nodes that lie outside the polygon...
+2022-05-04 12:59:13,139 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 12:59:14,741 INFO OSMnx Created r-tree spatial index for 34774 geometries
+2022-05-04 12:59:15,035 INFO OSMnx Identified 32899 geometries inside polygon
+2022-05-04 12:59:16,003 INFO OSMnx Removed 1875 nodes outside polygon
+2022-05-04 12:59:17,973 INFO OSMnx Removed 16 isolated nodes
+2022-05-04 12:59:21,282 INFO OSMnx Got largest weakly connected component (32442 of 32883 total nodes)
+2022-05-04 12:59:21,368 INFO OSMnx Truncated graph by polygon
+2022-05-04 12:59:22,148 INFO OSMnx Counted undirected street segments incident on each node
+2022-05-04 12:59:22,243 INFO OSMnx graph_from_polygon returned graph with 32442 nodes and 94548 edges
+2022-05-04 12:59:22,567 INFO OSMnx graph_from_bbox returned graph with 32442 nodes and 94548 edges
+2022-05-04 12:59:22,671 INFO OSMnx graph_from_point returned graph with 32442 nodes and 94548 edges
+2022-05-04 12:59:23,478 INFO OSMnx Begin plotting the graph...
+2022-05-04 12:59:33,161 INFO OSMnx Created edges GeoDataFrame from graph
+2022-05-04 12:59:52,341 INFO OSMnx Finished plotting the graph
+2022-05-04 14:57:18,471 INFO OSMnx Solving 2 paths with 1 CPUs...
+2022-05-04 14:59:52,046 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 14:59:52,699 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 15:08:05,847 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 15:08:08,143 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 15:08:31,983 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 15:08:32,534 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 15:08:48,244 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 15:08:48,402 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 15:12:58,440 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 15:12:58,604 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 15:13:10,175 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 15:13:10,343 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 15:15:48,079 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 15:15:50,094 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 15:16:04,588 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 15:16:05,091 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 15:17:10,686 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 15:17:11,189 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 15:18:14,382 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 15:18:14,541 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 15:37:10,969 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 15:37:11,143 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 15:41:20,909 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 15:41:21,069 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 15:41:32,266 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 15:41:32,427 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 15:44:02,365 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 15:44:02,877 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 18:15:24,679 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 18:15:40,437 INFO OSMnx Created edges GeoDataFrame from graph
+2022-05-04 18:16:22,744 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 18:16:34,295 INFO OSMnx Created edges GeoDataFrame from graph
+2022-05-04 18:23:04,508 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 18:23:04,669 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 18:23:36,402 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 18:23:36,579 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 18:24:07,031 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 18:24:07,580 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 18:24:56,400 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 18:24:56,552 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 18:25:28,538 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 18:25:29,122 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 18:28:29,765 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 18:28:29,926 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 19:24:48,089 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 19:24:48,534 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 19:38:36,121 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 19:38:36,595 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 19:45:31,379 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 19:45:31,771 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 19:46:50,908 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 19:46:51,492 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 19:47:34,565 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 19:47:34,733 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 19:57:09,061 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 19:57:11,339 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 19:57:35,137 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 19:57:35,331 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 19:57:58,345 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 19:57:58,510 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 20:00:36,175 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 20:00:36,565 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 20:10:39,330 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 20:10:39,861 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 20:11:17,360 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 20:11:18,738 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 20:15:45,692 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 20:15:45,858 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 20:16:02,483 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 20:16:02,641 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 20:22:49,760 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 20:22:49,947 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 20:23:01,683 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 20:23:01,834 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 20:23:32,699 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 20:23:33,201 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 20:32:49,765 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 20:32:49,957 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 20:34:44,570 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 20:34:46,877 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 20:35:08,698 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 20:35:08,869 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 20:42:31,144 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 20:42:31,329 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 20:42:58,384 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 20:42:58,551 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 20:43:11,568 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 20:43:11,723 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 20:50:41,623 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 20:50:43,424 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 20:51:18,737 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 20:51:18,896 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 20:54:48,438 INFO OSMnx Created nodes GeoDataFrame from graph
+2022-05-04 20:54:51,057 INFO OSMnx Created nodes GeoDataFrame from graph
